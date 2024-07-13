@@ -367,7 +367,7 @@ cd $pp; ls -Atrlhkw1; sudo chmod 775 /gh/qqqq -R;
 echo -e "\n\t$c2 Visit:$cyan https://github.com/aeniks/qqqq/raw/main/$(ls * -Atrw1|tail -n1)\n\n"
 }
 ## Multiselection menu for bash
-menu() {
+mmmm() {
 size=($(stty size)); for i in $(seq $size); do echo; done; echo -ne '\e[s\e[H\e[J'; 
 gre='\e[92m'; cyan='\e[36m'; re='\e[0m'; dim='\e[2m'; bold='\e[1m'; c2='\e[36m--\e[0m';
 dots="$(for i in $(seq $(($(stty size|tail -c4) - 11))); do echo -ne .; done;)"; 

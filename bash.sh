@@ -19,7 +19,7 @@ bgla="\e[40m"; bgred="\e[41m"; bggre="\e[42m"; bgyel="\e[43m"; bgblu="\e[44m"; b
 bold="\e[1m"; dim="\e[2m"; italic="\e[3m"; underline="\e[44m"; blink="\e[45m"; rev="\e[47m"; invis="\e[8m"; strike="\e[9m"; c2=""$cya" --$re"; 
 ################################
 e='echo -e '; c2=$($e'\e[36m --\e[0m'); cyan=$($e'\e[36m'); green=$($e'\e[32m'); red=$($e'\e[31m'); 
-. /ants/alias.sh; . /ants/functions.sh;
+. /home/ants2/alias.sh; . /home/ants2/functions.sh;
 ################_ lfilemanager
 LFRC='/ants/sh/config/lfrc.sh'; if [ -e /bin/lf ]; then bind '"\C-l":"lfcd\C-m"'; alias l='cd $(lf -config $LFRC -print-last-dir )';
 lfcd () { cd "$(command lf -config $LFRC -print-last-dir "$@")"; } fi; 
