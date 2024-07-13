@@ -1,0 +1,46 @@
+
+.-shell-port-.opened {
+position: fixed;
+z-index: 1000000;
+top: 0;
+right: unset;
+bottom: unset !important;
+left: 260px;
+background-color: #00000066;
+}
+
+#terminal-dd {
+min-height: 44px !important;
+max-height: 100% !important;
+min-width: 44px !important;
+max-width: 100% !important;
+}
+
+.-shell-port- .-shell-port-container {
+overflow-y: auto;
+overflow-x: hidden;
+height: 244px;
+padding: 0 !important;
+resize: both;
+width: 800px;
+}
+
+.-shell-port-container .-shell-port-close {
+position: absolute;
+z-index: 11011;
+top: 0;
+font-weight: bolder;
+right: -120px;
+text-shadow: -2px -2px 4px black;
+width: 100px;
+height: 100px;
+cursor: pointer;
+-webkit-transform: rotate(45deg);
+transform: rotate(45deg);
+-webkit-transform-origin: top right;
+transform-origin: top right;
+background-color: #00000000;
+-webkit-backface-visibility: hidden;
+backface-visibility: hidden;
+-moz-osx-font-smoothing: grayscale;
+}
